@@ -32,10 +32,10 @@ const Services = () => {
                   Health and Well-being
                 </h2>
                 <p className="text-md font-medium">
-                  We specialize in creating and optimizing high-quality, custom
-                  websites for businesses and organizations of all sizes.
-                  Building mobile-friendly and easy-to-use websites and
-                  applications for clients.
+                  Design solutions that promote physical and mental health. This
+                  theme focuses on creating apps, platforms, or interfaces that
+                  encourage healthy living, provide mental health support, or
+                  track fitness and wellness goals.
                 </p>
               </div>
             </div>
@@ -51,9 +51,11 @@ const Services = () => {
                   Smart Cities and Urban Innovation
                 </h2>
                 <p className="text-md font-medium">
-                  We develop high-quality, custom cross-platform mobile
-                  applications that are robust and optimized for performance,
-                  scalability, and accessibility.
+                  Develop digital experiences that contribute to the evolution
+                  of smart cities. Participants will focus on creating
+                  innovative solutions for urban challenges, such as smarter
+                  transportation, energy management, and enhancing public
+                  services.
                 </p>
               </div>
             </div>
@@ -69,9 +71,9 @@ const Services = () => {
                   Digital Education and Lifelong Learning
                 </h2>
                 <p className="text-md font-medium">
-                  We provide domain registration and web hosting services to
-                  individuals and organizations to enable them gain visibility
-                  in the digital space.
+                  Create user-friendly tools that transform how people learn.
+                  This theme encourages designs that make education more
+                  accessible, engaging, and effective for learners of all ages.
                 </p>
               </div>
             </div>
@@ -87,9 +89,10 @@ const Services = () => {
                   Financial Wellness and Digital Economy
                 </h2>
                 <p className="text-md font-medium">
-                  Our IT consultations service provides expert guidance and
-                  support for businesses and individuals looking to optimize
-                  their technology solutions.
+                  Build interfaces that empower users to take control of their
+                  finances. This theme emphasizes creating solutions for
+                  budgeting, investing, financial literacy, and supporting the
+                  digital economy.
                 </p>
               </div>
             </div>
