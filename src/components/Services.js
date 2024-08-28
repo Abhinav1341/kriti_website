@@ -14,64 +14,67 @@ const Services = () => {
           </h2>
         </div>
 
-        <div className="px-12" data-aos="fade-down" data-aos-delay="600">
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
-            <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
-              <div className="m-2 text-justify text-sm">
-                <img
-                  alt="card img"
-                  className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-                  src={img}
-                />
-                <h2 className="font-semibold my-4 text-2xl text-center">
-                  Health and Well-being
-                </h2>
-                <p className="text-md font-medium">
-                  Design solutions that promote physical and mental health. This
-                  theme focuses on creating apps, platforms, or interfaces that
-                  encourage healthy living, provide mental health support, or
-                  track fitness and wellness goals.
-                </p>
+          <div className="px-12" data-aos="fade-down" data-aos-delay="600">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+              <div
+                  className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+                <div className="m-2 text-justify text-sm">
+                  <img
+                      alt="card img"
+                      className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
+                      src={img}
+                  />
+                  <h2 className="font-semibold my-4 text-2xl text-center">
+                    Health and Well-being
+                  </h2>
+                  <p className="text-md font-medium">
+                    Design solutions that promote physical and mental health. This
+                    theme focuses on creating apps, platforms, or interfaces that
+                    encourage healthy living, provide mental health support, or
+                    track fitness and wellness goals.
+                  </p>
+                </div>
               </div>
-            </div>
 
-            <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
-              <div className="m-2 text-justify text-sm">
-                <img
-                  alt="card img"
-                  className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-                  src={img2}
-                />
-                <h2 className="font-semibold my-4 text-2xl text-center">
-                  Smart Cities and Urban Innovation
-                </h2>
-                <p className="text-md font-medium">
-                  Develop digital experiences that contribute to the evolution
-                  of smart cities. Participants will focus on creating
-                  innovative solutions for urban challenges, such as smarter
-                  transportation, energy management, and enhancing public
-                  services.
-                </p>
+              <div
+                  className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+                <div className="m-2 text-justify text-sm">
+                  <img
+                      alt="card img"
+                      className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
+                      src={img2}
+                  />
+                  <h2 className="font-semibold my-4 text-2xl text-center">
+                    Smart Cities and Urban Innovation
+                  </h2>
+                  <p className="text-md font-medium">
+                    Develop digital experiences that contribute to the evolution
+                    of smart cities. Participants will focus on creating
+                    innovative solutions for urban challenges, such as smarter
+                    transportation, energy management, and enhancing public
+                    services.
+                  </p>
+                </div>
               </div>
-            </div>
 
-            <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
-              <div className="m-2 text-justify text-sm">
-                <img
-                  alt="card img"
-                  className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-                  src={img3}
-                />
-                <h2 className="font-semibold my-4 text-2xl text-center ">
-                  Digital Education and Lifelong Learning
-                </h2>
-                <p className="text-md font-medium">
-                  Create user-friendly tools that transform how people learn.
-                  This theme encourages designs that make education more
-                  accessible, engaging, and effective for learners of all ages.
-                </p>
+              <div
+                  className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+                <div className="m-2 text-justify text-sm">
+                  <img
+                      alt="card img"
+                      className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
+                      src={img3}
+                  />
+                  <h2 className="font-semibold my-4 text-2xl text-center ">
+                    Digital Education and Lifelong Learning
+                  </h2>
+                  <p className="text-md font-medium">
+                    Create user-friendly tools that transform how people learn.
+                    This theme encourages designs that make education more
+                    accessible, engaging, and effective for learners of all ages.
+                  </p>
+                </div>
               </div>
-            </div>
 
             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
               <div className="m-2 text-justify text-sm">
