@@ -31,24 +31,24 @@ const CountdownTimer = () => {
   }, []);
 
   return (
-    <div>
-      <h1 className="text-2xl text-gray-200 ">
+    <div className="m-auto justify-center mb-12 flex flex-col">
+      <h1 className="md:text-[1.8rem] text-2xl mb-4 text-gray-200 text-center">
         Time Left until Hackathon Begins!!
       </h1>
       {Object.keys(timeLeft).length ? (
-        <div className="flex flex-row gap-2">
-          <p className="">
+        <div className="flex flex-row gap-5 text-xl text-semibold text-gray-900 mx-auto">
+          <div className="text-center bg-gray-50 p-4 rounded-md">
             {timeLeft.days} <br /> Days
-          </p>
-          <p>
+          </div>
+          <div className="text-center bg-gray-50 p-4 rounded-md">
             {timeLeft.hours} <br /> Hours
-          </p>
-          <p>
+          </div>
+          <div className="text-center bg-gray-50 p-4 rounded-md">
             {timeLeft.minutes} <br /> Minutes
-          </p>
-          <p>
+          </div>
+          <div className="text-center bg-gray-50 p-4 rounded-md">
             {timeLeft.seconds} <br /> Seconds
-          </p>
+          </div>
         </div>
       ) : (
         <p>The countdown has ended!</p>

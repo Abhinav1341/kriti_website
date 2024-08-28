@@ -5,14 +5,14 @@ const NavLinks = () => {
   return (
     <>
       <HashLink
-        className="px-4 font-extrabold text-gray-500 hover:text-blue-900"
+        className="px-4 font-regular text-gray-500 hover:text-blue-900"
         smooth
         to="/#about"
       >
         About
       </HashLink>
       <HashLink
-        className="px-4 font-extrabold text-gray-500 hover:text-blue-900"
+        className="px-4 font-regular text-gray-500 hover:text-blue-900"
         smooth
         to="/#services"
       >
@@ -21,12 +21,12 @@ const NavLinks = () => {
       {/* <HashLink className="px-4 font-extrabold text-gray-500 hover:text-blue-900" to="/">
                 Portfolio
             </HashLink> */}
-      <HashLink
-        className="px-4 font-extrabold text-gray-500 hover:text-blue-900"
+      {/* <HashLink
+        className="px-4 font-regular text-gray-500 hover:text-blue-900"
         to="/contact#contact"
       >
         Contact Us
-      </HashLink>
+      </HashLink> */}
     </>
   );
 };
