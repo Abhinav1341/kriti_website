@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import NavBar from "../components/Navbar/NavBar";
 import heroImg from "../images/web-dev.gif";
+import Timeline from "./timeline";
 
 const Hero = () => {
   return (
@@ -78,6 +79,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      <Timeline />
     </>
   );
 };
