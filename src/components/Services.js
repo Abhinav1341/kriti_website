@@ -6,13 +6,13 @@ import img4 from "../images/consultation.svg";
 
 const Services = () => {
   return (
-      <div id="services" className=" bg-transparent py-12">
-        <section data-aos="zoom-in-down">
-          <div className="my-4 py-4">
-            <h2 className="my-2 text-center text-3xl text-blue-900 uppercase font-bold">
-              themes
-            </h2>
-          </div>
+    <div id="services" className=" bg-transparent py-12">
+      <section data-aos="zoom-in-down">
+        <div className="my-4 py-4">
+          <h2 className="my-2 text-center text-5xl text-blue-900 uppercase font-bold">
+            themes
+          </h2>
+        </div>
 
           <div className="px-12" data-aos="fade-down" data-aos-delay="600">
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
@@ -76,102 +76,90 @@ const Services = () => {
                 </div>
               </div>
 
-              <div
-                  className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
-                <div className="m-2 text-justify text-sm">
-                  <img
-                      alt="card img"
-                      className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-                      src={img4}
-                  />
-                  <h2 className="font-semibold my-4 text-2xl text-center ">
-                    Financial Wellness and Digital Economy
-                  </h2>
-                  <p className="text-md font-medium">
-                    Build interfaces that empower users to take control of their
-                    finances. This theme emphasizes creating solutions for
-                    budgeting, investing, financial literacy, and supporting the
-                    digital economy.
-                  </p>
-                </div>
+            <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+              <div className="m-2 text-justify text-sm">
+                <img
+                  alt="card img"
+                  className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
+                  src={img4}
+                />
+                <h2 className="font-semibold my-4 text-2xl text-center ">
+                  Financial Wellness and Digital Economy
+                </h2>
+                <p className="text-md font-medium">
+                  Build interfaces that empower users to take control of their
+                  finances. This theme emphasizes creating solutions for
+                  budgeting, investing, financial literacy, and supporting the
+                  digital economy.
+                </p>
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-
-        <section>
-
-          <div className="m-auto max-w-6xl px-2 md:p-12 h-5/6">
-            <div className="py-2">
-              <h2 className="mt-2 text-center text-4xl text-[#d45369] uppercase font-bold">
-                Faq's
-              </h2>
+      <section>
+      <div className="mb py-4 mt-12">
+          <h2 className="my-6 text-center text-5xl text-blue-900 uppercase font-bold">
+            FAQs
+          </h2>
+        </div>
+        <div className="m-auto -mt-12 max-w-6xl p-2 md:p-10 h-5/6">
+          <div
+            className="flex flex-col-reverse lg:flex-row py-8 justify-between lg:text-left"
+            data-aos="zoom-out"
+          >
+            <div className="lg:w-1/2 flex flex-col lg:mx-4 justify-center">
+              <div className="text-blue-900 mb-4"></div>
+              <h3 className="text-3xl  text-blue-900 font-bold">
+                What is <span className="font-black">Kriti?</span>
+              </h3>
+              <div>
+                <p className="my-3 text-xl text-gray-600 font-semibold">
+                Kriti is an Online & Offline participants, Kriti is set 
+to be a landmark event in the design community, 
+attracting talent from diverse fields and offering a 
+platform to showcase and enhance their skills.
+                </p>
+              </div>
             </div>
-            <div
-                className="flex flex-col-reverse lg:flex-row py-8 justify-between lg:text-left"
-                data-aos="zoom-out"
-            >
-              <div className="lg:w-1/2 flex flex-col lg:mx-4 justify-center">
-                <div className="text-gray-300 mb-4"></div>
-                <h3 className="text-3xl  text-[#d45369] font-bold">
-                  We <span className="font-black">Collaborate</span>
-                </h3>
-                <div>
-                  <p className="my-3 text-xl text-gray-300 font-semibold">
-                    We can collaborate with your existing tech team to scale
-                    existing software applications or design customized software
-                    applications that suits your everyday need and simplifies
-                    various processes.
-                  </p>
-                </div>
+            <div className="lg:w-1/2 flex flex-col lg:mx-4 justify-center">
+              <div className="text-blue-900 mb-4"></div>
+              <h3 className="text-3xl  text-blue-900 font-bold">
+                Is Kriti <span className="font-black">Free/Paid?</span>
+              </h3>
+              <div>
+                <p className="my-3 text-xl text-gray-600 font-semibold">
+                  Participating and attending any of the event of Kriti is completely free of Cost. You don't need to pay anything for the event
+                </p>
               </div>
-              <div className="lg:w-1/2 flex flex-col lg:mx-4 justify-center">
-                <div className="text-gray-300 mb-4"></div>
-                <h3 className="text-3xl  text-[#d45369] font-bold">
-                  We <span className="font-black">Collaborate</span>
-                </h3>
-                <div>
-                  <p className="my-3 text-xl text-gray-300 font-semibold">
-                    We can collaborate with your existing tech team to scale
-                    existing software applications or design customized software
-                    applications that suits your everyday need and simplifies
-                    various processes.
-                  </p>
-                </div>
+            </div>
+            <div className="lg:w-1/2 flex flex-col lg:mx-4 justify-center">
+              <div className="text-blue-900 mb-4"></div>
+              <h3 className="text-3xl  text-blue-900 font-bold">
+                Team <span className="font-black">Formation</span>
+              </h3>
+              <div>
+                <p className="my-3 text-xl text-gray-600 font-semibold">
+                Each event under the Kriti team should be comprised of a minimum of 1 and a maximum of 3 members.
+                </p>
               </div>
-              <div className="lg:w-1/2 flex flex-col lg:mx-4 justify-center">
-                <div className="text-gray-300 mb-4"></div>
-                <h3 className="text-3xl  text-[#d45369] font-bold">
-                  We <span className="font-black">Collaborate</span>
-                </h3>
-                <div>
-                  <p className="my-3 text-xl text-gray-300 font-semibold">
-                    We can collaborate with your existing tech team to scale
-                    existing software applications or design customized software
-                    applications that suits your everyday need and simplifies
-                    various processes.
-                  </p>
-                </div>
-              </div>
-              <div className="lg:w-1/2 flex flex-col lg:mx-4 justify-center">
-                <div className="text-gray-300 mb-4"></div>
-                <h3 className="text-3xl  text-[#d45369] font-bold">
-                  We <span className="font-black">Collaborate</span>
-                </h3>
-                <div>
-                  <p className="my-3 text-xl text-gray-300 font-semibold">
-                    We can collaborate with your existing tech team to scale
-                    existing software applications or design customized software
-                    applications that suits your everyday need and simplifies
-                    various processes.
-                  </p>
-                </div>
+            </div>
+            <div className="lg:w-1/2 flex flex-col lg:mx-4 justify-center">
+              <div className="text-blue-900 mb-4"></div>
+              <h3 className="text-3xl  text-blue-900 font-bold">
+                How to <span className="font-black">Register?</span>
+              </h3>
+              <div>
+                <p className="my-3 text-xl text-gray-600 font-semibold">
+                Registration for Kriti is exclusively available on Devfolio.
+                </p>
               </div>
             </div>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
+    </div>
   );
 };
 
