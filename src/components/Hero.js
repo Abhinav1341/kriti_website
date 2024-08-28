@@ -28,7 +28,7 @@ const Hero = () => {
                 {/* We build digital solutions to help businesses scale */}
                 KRITI : WHERE CREATION MEETS CREATIVITY <br />
               </h1>
-              <h2 className="mb-5 md:text-4xl text-2xl font-bold text-[#d45369]">
+              <h2 className="mb-5 md:text-4xl text-2xl font-bold text-gray-300">
                 UI/UX HACKATHON
               </h2>
               <div className="text-xl font-semibold tracking-tight mb-5 text-gray-400">
