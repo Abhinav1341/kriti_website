@@ -24,7 +24,7 @@ body {
 }
 
 .footer {
-  background: url(./images/footer.svg) top center no-repeat;
+  background: top center no-repeat;
   background-size: cover;
 }
 
