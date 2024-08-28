@@ -29,7 +29,7 @@ body {
 }
 
 .cta {
-  background: linear-gradient(rgba(2,2,2,.7),rgba(0,0,0,.7)),url(./images/clients/bgg.jpg) fixed center center;
+  background: linear-gradient(rgba(2,2,2,.1),rgba(0,0,0,.1)),url(./images/clients/bgg.jpg) fixed center center;
 }
 
 
