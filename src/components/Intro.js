@@ -38,6 +38,10 @@ const Intro = () => {
               </p>
             </div>
 
+            <div className="text-center text-gray-100">
+              Last Year's Statistics
+            </div>
+
             <div className="flex flex-nowrap justify-around mt-10">
               <div className="text-white p-3 rounded w-40 bg-neutral-900">
                 <h1 className="text-[#d45369] font-bold text-xl">25K+</h1>
