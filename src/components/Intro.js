@@ -6,11 +6,11 @@ const Intro = () => {
   return (
     <>
       <div
-        className="m-auto max-w-6xl p-2 md:p-12 h-5/6 bg-zinc-900 rounded-[20px] border"
+        className="m-auto w-5/6 md:w-2/3 p-1 md:p-12 md:h-5/6 bg-zinc-900 rounded-[20px] border"
         id="about"
       >
-        <div className="my-2 py-4">
-          <h2 className="my-2 text-center text-5xl text-[#d45369] uppercase font-bold">
+        <div className=" my-1 py-2 md:my-2 md:py-4">
+          <h2 className="my-2 text-center text-4xl md:text-5xl text-[#d45369] uppercase font-bold">
             About
           </h2>
         </div>

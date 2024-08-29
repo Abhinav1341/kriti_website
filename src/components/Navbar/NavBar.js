@@ -32,7 +32,7 @@ const NavBar = () => {
         </div>
         <div className="group flex flex-col items-center">
           <button
-            className="p-2 rounded-lg lg:hidden text-blue-900"
+            className="p-2 rounded-lg lg:hidden text-[#d45369]"
             onClick={handleClick}
           >
             <svg
@@ -60,7 +60,7 @@ const NavBar = () => {
           </div>
 
           <div
-            className={`fixed transition-transform duration-300 ease-in-out transit flex justify-center left-0 w-full h-auto rounded-md p-24 bg-white lg:hidden shadow-xl top-14 ${
+            className={`fixed transition-transform duration-300 ease-in-out transit flex justify-center left-0 w-full h-auto rounded-md p-24 bg-gray-200 lg:hidden shadow-xl top-14 ${
               isOpen ? "block" : "hidden"
             } `}
           >

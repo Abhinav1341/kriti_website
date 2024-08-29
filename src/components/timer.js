@@ -36,17 +36,17 @@ const CountdownTimer = () => {
         Time Left until Hackathon Begins!!
       </h1>
       {Object.keys(timeLeft).length ? (
-        <div className="flex flex-row gap-5 text-xl text-semibold text-gray-900 mx-auto">
-          <div className="text-center bg-gray-50 p-4 rounded-md">
+        <div className="flex flex-row gap-2 md:gap-5 text-lg md:text-xl text-semibold text-gray-900 mx-auto">
+          <div className="text-center bg-gray-50 p-2 md:p-4 rounded-md">
             {timeLeft.days} <br /> Days
           </div>
-          <div className="text-center bg-gray-50 p-4 rounded-md">
+          <div className="text-center bg-gray-50 p-2 md:p-4 rounded-md">
             {timeLeft.hours} <br /> Hours
           </div>
-          <div className="text-center bg-gray-50 p-4 rounded-md">
+          <div className="text-center bg-gray-50 p-2 md:p-4 rounded-md">
             {timeLeft.minutes} <br /> Minutes
           </div>
-          <div className="text-center bg-gray-50 p-4 rounded-md">
+          <div className="text-center bg-gray-50 p-2 md:p-4 rounded-md">
             {timeLeft.seconds} <br /> Seconds
           </div>
         </div>
