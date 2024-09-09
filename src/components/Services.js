@@ -10,11 +10,15 @@ const Services = () => {
       <section data-aos="zoom-in-down">
         <div className="my-4 py-4">
           <h2 className="my-2 text-center text-4xl text-[#d36073] uppercase font-bold">
-            themes
+            themes / problem statement
           </h2>
+
+          <h3 className="my-2 text-center text-3xl text-gray-100 uppercase font-bold">
+            ( TO BE RELEASED ON 15th September )
+          </h3>
         </div>
 
-        <div className="px-20" data-aos="fade-down" data-aos-delay="600">
+        {/* <div className="px-20" data-aos="fade-down" data-aos-delay="600">
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-zinc-800 transition-all ease-in-out duration-400  overflow-hidden text-gray-100 hover:bg-zinc-700 cursor-pointer hover:text-white rounded-lg shadow-2xl p-5 group">
               <div className="m-2 text-justify text-sm">
@@ -71,8 +75,8 @@ const Services = () => {
                 </p>
               </div>
             </div>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
       </section>
 
       {/* <section>
